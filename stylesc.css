@@ -1,0 +1,29 @@
+h1 {
+                     color:orange;
+                     background-color:white;
+                     font-size:3.0em;
+                     font-family:Arial;
+                     font-style:italic;
+                  }
+p {
+                      color:darkblue;
+                      font-size:1.5em;
+                      background-color:white;
+                  }
+div{
+                  	color:black;
+                  	background-color:orange;
+                    font-size:2.0em;
+                    font-family:Arial;
+                  }
+footer{
+                    color:black;
+	                  font-size:1em;
+
+				  }
+header{
+                     color:brown;
+                     font-size:2.5em;
+                     font-family:Arial;
+                     font-style:italic;
+                  }
