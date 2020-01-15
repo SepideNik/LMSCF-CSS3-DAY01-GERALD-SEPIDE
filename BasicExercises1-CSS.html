@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--<img src="img\kindpng_1164980.png" alt="Baner"/>-->
+	<style type="text/css" media="screen">
+		div{
+			margin: 5px;
+			border: solid gray 2px;
+		}
+		#third > p {
+			display: none;
+		}
+		h1{
+			display: none;
+		}
+		
+		#Second *:not(:last-child){
+			display: none;
+		}
+	</style>
+</head>
+	<body>
+	
+		<div class="left" id="first">
+			<div class="left" id="third">
+				<p>P direct child of Div Third</p>
+				<span>
+					<h3></h3>
+					<p>P child of span Div Third</p>
+				</span>
+			</div>
+			<div class="left" id="fourth">
+				<h1>h1 Element third</h1>
+			</div>
+		</div>	
+		<div class="right" id="Second">
+			<div class="right" id="fifth">
+				<p>P div fifth Second</p>
+			</div>
+			<div class="right" id="sixth">
+				
+				<img style="width: 200px;height: 200px" src="3.jpg" alt=" ">
+			</div>
+		</div>
+	
+</body>
+</html>
